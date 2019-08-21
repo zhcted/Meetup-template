@@ -7,9 +7,7 @@ body{
 	display: flex;
 	justify-content: space-between;
 }
-.navbar .nav-item{
 
-}
 .navbar .nav-item ul {
 	list-style: none;
 	display: flex;
@@ -105,6 +103,143 @@ body{
 }
 .explore-more .explore-item ul li:hover{
 	border: 1px solid #a2a2a2;
-	
+}
+.card{
+	width: 25%;
+
 }
 /*Explore more end*/
+/* Event near you start */
+.event-near-you{
+	width: 80%;
+	margin: auto;
+	position: relative;
+}
+.event-near-you .event-title p{
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 0.3rem;
+}
+.event-near-you .event-text p{
+	
+	padding-bottom: 1rem;
+}
+.card-item{
+	
+	display: flex;
+}
+.card{
+	border: 1px solid rgba(46,62,72,.12);
+	border-radius: 8px;
+	padding: 2rem;
+	position: relative;
+	transition: all 0.3s;
+}
+.card-bot{
+	margin-top: 2rem;
+}
+
+.card .card-bot a{
+	display: inline;
+	margin-left: 3rem;
+	padding: 0.75rem 1rem;
+	border: 1px solid #00a2c7;
+	text-decoration: none;
+	border-radius: 5px;
+	color: #00a2c7;
+	transition: all 0.3s;
+}
+.card .card-bot p{
+	display: inline;
+
+}
+.card .card-bot a:hover{
+	color: white;
+	background: #00a2c7;
+}
+.card:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	right: 0px;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+}
+.colored{
+	color: #00a2c7;
+	font-size: 14px;
+	font-weight: 500;
+}
+.resized{
+	font-size: 14px;
+	color: #585858;
+}
+.see-all-btn a{
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+.see-all-btn a{
+	color: #00a2c7;
+	text-decoration: none;
+	font-weight: 500;
+	
+}
+/* Event near you end */
+/* Group near you start */
+.group-near-you{
+	width: 80%;
+	margin: auto;
+	position: relative;
+}
+.group-near-you .event-title p{
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 0.3rem;
+}
+.group-near-you .event-text p{
+	
+	padding-bottom: 1rem;
+}
+
+.group-item-list{
+	display: grid;
+	grid-auto-rows: 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 1rem;
+}
+
+.group-item-list .column .gr-card img{
+	width: 100%;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+	
+}
+.group-item-list .column{
+	border: 1px solid #EEE;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+}
+.group-item-list .column .gr-card .card-container{
+	padding: 1rem;
+	position: relative;
+
+}
+.group-item-list .column .gr-card .card-container .members{
+	position: absolute;
+	
+}
+
+
+
+.see-all-btn a{
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+.see-all-btn a{
+	color: #00a2c7;
+	text-decoration: none;
+	font-weight: 500;
+	
+}
+/* Group near you end */
