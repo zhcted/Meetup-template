@@ -215,17 +215,24 @@ body{
 	
 }
 .group-item-list .column{
+	position: relative;
 	border: 1px solid #EEE;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	border-radius: 8px;
+	transition: all ease 0.3s;
 }
 .group-item-list .column .gr-card .card-container{
 	padding: 1rem;
-	position: relative;
+}
+.group-item-list .column .gr-card .card-container .categories{
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #585858;
 
 }
-.group-item-list .column .gr-card .card-container .members{
-	position: absolute;
+.group-item-list .column .gr-card .card-container .members, .upcoming{
+	font-size: 12px;
+	color: #585858;
 	
 }
 
@@ -241,5 +248,12 @@ body{
 	text-decoration: none;
 	font-weight: 500;
 	
+}
+.group-item-list .column:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+	right: 0px;
+	top: -3px;
+	left: 0px;
+	bottom: 0px;
 }
 /* Group near you end */
